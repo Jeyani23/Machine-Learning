@@ -34,3 +34,5 @@ ins=float(input('Enter your insulin level:'))
 age=int(input('Enter your age:'))
 
 from sklearn.metrics import accuracy_score
+pval=LgR.predict(ind)
+accuracy_score(dep,pval)
